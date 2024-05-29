@@ -1,0 +1,96 @@
+{
+    "name": "『 𝚂𝚄𝙾𝚁𝙲𝙴 𝐂𝐎𝑳𝐎𝐍𝐄𝑳𓏺 』",
+    "description": "〔 سورس العقيد 𝚂𝙾𝚄𝚁𝙲𝙴 𝐂𝐎𝑳𝐎𝐍𝐄𝑳𓏺  𖤍 \n افضـل سـورس لتشغيل الصوتيات في المكالمه  › تحديثـات متواصله › 〔 حصريـاً 〕\n - مطـور السـورس : 𝐂𝐎𝑳𝐎𝐍𝐄𝑳𓏺",
+    "logo": "https://graph.org/file/2f199ef466e7950dd5e79.jpg",
+    "keywords": [
+    "python3",
+    "telegram",
+    "bot",
+    "ze",
+    "MusicBot",
+    "telegram-bot",
+    "pyrogram",
+    "python",
+    "telethon"
+    ],
+    "env": {
+      "API_ID": {
+        "description": "اتركه كما هو.",
+        "value": "21209802",
+        "required": true
+      },
+      "API_HASH": {
+        "description": "اتركه كما هو.",
+        "value": "eed1c8387c6ee80009527e07d9d58cc0",
+        "required": true
+      },
+      "BOT_NAME": {
+        "description": "شهد.",
+        "value": "",
+        "required": true
+      },
+      "BOT_TOKEN": {
+        "description": "7158630532:AAHr1w8TvQTlU_etEyiykoJqVPEHWO_vPcQط",
+        "value": "",
+        "required": true
+      },
+      "START_IMG_URL": {
+        "description": "رابط صوره start او اتركه كما هو.",
+        "value": "https://te.legra.ph/file/e8bdc13568a49de93b071.jpg",
+        "required": true
+      },
+      "MONGO_DB_URI": {
+        "description": "لا تغيره. او قم بانشاء قاعده البيانات. الشرح https://t.me/A_LAA26/2.",
+        "value": "mongodb+srv://abood:king@cluster0.rbp1cqz.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0",
+        "required": true
+      },
+      "OWNER_ID": {
+        "description": "6716174264",
+        "value": "",
+        "required": true
+      },
+      "STRING_SESSION": {
+        "description": "BAGi8fAAKGCjmyWNegWXAYkjnTK1H_5AaKu1tJ0HTbV0IQ0L-kPuI3eaSlSaa58KXtKlq8rOX3qJfi7aeqWmFc4MpzQ3r5qqOME6-aSQFVQjEFOR05mzLcZJshK-1LP6CEWSazEKZ2DWElCLZt6Dlac2SGhrBQOoBJuDv8MCQPzYPGZfli4X60UAlz5ZE8udq9S7Jtm3Z4le3Ii8d3UPn0BFMsKR8Q2z4TD5sp3kSmN6Agmug8P3rMZCNC_BlehbLC6DSsMrfcccNtKZlJwraxN0XPGB9M6ozwQZr2q7UJAneTcbmLQqky4Yfu54OIY79D2R0I9JmrSc7EYJ7Lp7otu3kV4TLQAAAAGTTu4lAA",
+        "value": "",
+        "required": true
+      },
+      "HEROKU_API_KEY": {
+        "description": 
+       "هنا ضع الايبي كي الخاص بحساب هيروكو من هذا الرابط https://dashboard.heroku.com/account",
+        "value": "HRKU-c849d4d4-5912-45ce-a81a-031efc26acd4",
+        "required": false
+      },
+      "HEROKU_APP_NAME": {
+        "description": "اسم التطبيق أول مربع كتبته خلي هنا نفسه وحروف صغيرة.",
+        "value": "",
+        "required": false
+      },
+      "CHANNEL_NAME": {
+        "description": "خيال ️️️️• 𝐊𝐡𝐚𝐲𝐚𝐥 𓏺.",
+        "value": "𝚂𝚄𝙾𝚁𝙲𝙴 𝐂𝐎𝑳𝐎𝐍𝐄𝑳𓏺",
+        "required": true
+      },
+      "CHANNEL_LINK": {
+        "description": "A_LAA26",
+        "value": "A_LAA26",
+        "required": true
+      },
+      "LOGGER_ID": {
+        "description": "ادخل ايدي مجموعة السجل بجانب الرقم -100 فـي المربع〔 سوي مجموعة جديدة وروح لاعدادات المجموعة وخلي السجل ظاهر .. بعدها ارفع البوت والحساب المساعد إشـراف وافتـح المكالمه بعدها جيب ايدي المجموعة لهنا 〕.",
+        "value": "-1002097454444",
+        "required": true
+      }
+    },
+    "buildpacks": [
+          {
+              "url": "heroku/python"
+          },
+          {
+              "url": "heroku/nodejs"
+          },
+          {
+              "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
+          }
+      ],
+      "stack": "container"
+  }
